@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>List of HTML</title>
+</head>
+<body>
+    <ul type="circle">
+        <li>naruto</li>
+        <li>one piece</li>
+        <li>hunter hunter</li>
+        <li>dragon ball z</li>
+    </ul>
+    <ol type="I">
+        <li>naruto</li>
+        <li>one piece</li>
+        <li>hunter hunter</li>
+        <li>dragon ball z</li>
+    </ol>
+    <!-- Table tag -->
+    <div>
+        <table>
+            <!-- thead and tbody used for css for designing -->
+            <caption> Max rating of different animes</caption>
+            <thead>
+                <tr>
+                    <th>S.N</th>
+                    <th>Anime Name</th>
+                    <th colspan="2">Rating</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Death Note</td>
+                    <td>9.5/10</td>
+                    <td>Excellent</td>
+                </tr>           
+                <tr>
+                    <td>2</td>
+                    <td>Naruto</td>
+                    <td>9.1/10</td>
+                    <td>Very Good</td>
+                </tr> 
+                <tr>
+                    <td>3</td>
+                    <td>One piece</td>
+                    <td>7.3/10</td>
+                    <td>Satisfactory</td>
+                </tr> 
+            </tbody>
+        </table>
+    </div>
+    <!-- HTML forms -->
+    <div>
+        <form action="form.php">
+            <p>What is your name?</p>
+            <input type="text" placeholder="Enter your name" />
+            <br />
+            <label for="sectionida">
+                <input type="radio" placeholder="Section a" name="section" id="sectionida" /> Male
+            </label>
+
+            <label for="sectionidb">
+                <input type="radio" placeholder="Section b" name="section" id="sectionidb" /> Female
+            </label>
+            <label for="sectionidc">
+                <input type="radio" placeholder="Section c" name="section" id="sectionidc" /> Others
+            </label>
+            <label for="beautifulgirl">
+                <input type="checkbox" name="are you married?" id="beautifulgirl" class="red" /> Married
+            </label>
+            <br />
+            <textarea name="Explain" id="sike" rows="5" cols="30" placeholder="Why do you want to submit this form?"></textarea>
+            <br />
+            <select name="love" id="love1">
+                Which type of hair do you like in girl?
+                <option value="Hair color">Hair color</option>
+                <option value="Blonde">Blonde</option>
+                <option value="Brunette">Brunette</option>
+                <option value="Redhead">Redhead</option>
+                <option value="Others">Others</option>
+            </select>
+        </form>
+
+    </div>
+    <div>
+        <input type="submit" />
+    </div>
+</body>
+</html>
